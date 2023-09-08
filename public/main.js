@@ -1,5 +1,5 @@
 
-const url='http://16.171.27.114:3000/user/signup'
+const url='http://16.171.27.114:3000/user/index'
 function checking(event){
     event.preventDefault();
     if(!check(event)){

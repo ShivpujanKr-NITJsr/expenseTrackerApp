@@ -25,7 +25,7 @@ function checking(event){
             console.log(res)
             alert(res.data.msg)
             if(res.data.success==true){
-                document.getElementById('form').action='./index.html';
+                document.getElementById('form').action='./last.html';
                 document.getElementById('form').method='get'
                 document.getElementById('form').submit();
                 localStorage.setItem('token',res.data.token);
