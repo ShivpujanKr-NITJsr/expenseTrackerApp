@@ -3,7 +3,8 @@ const controllers=require('./controllers')
 const router=express.Router();
 const Authorization=require('./auth')
 
-router.post('/user/signup',controllers.creating)
+
+router.post('/user/index',controllers.creating)
 
 router.post('/user/login',controllers.logging)
 
