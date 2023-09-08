@@ -153,7 +153,7 @@ exports.resetPassword=(req,res,next)=>{
             if(result){
                 // res.send('<div style="justify-content:center;"><form > <h1>Enter your new password</h1><br> <input type="text" name="password" id="password"> <button>Submit</button></form></div>')
                 // res.send({msg:path.join(__dirname,'../','frontEnd','getpaswd.html')})
-                fs.readFile(path.join(__dirname,'../','frontEnd','setpaswd.html'), 'utf8', (err, html) => {
+                fs.readFile(path.join(__dirname,'../','public','setpaswd.html'), 'utf8', (err, html) => {
                     if (err) {
                       console.error(err);
                       res.status(500).send('An error occurred.');
